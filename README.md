@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Pokedex ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+project developed in reactjs using the [pokeAPI](https://pokeapi.co/) which has a list of pokemon and with a click you can see information about the selected one.
+
+![alt text](https://scontent.fclo11-1.fna.fbcdn.net/v/t39.30808-6/277775426_1328053584344862_305791260121318934_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_ohc=wV7hnWYWQn8AX83kyN4&_nc_ht=scontent.fclo11-1.fna&oh=00_AT9BGXz_DgZriQK4duSmkVhBas-lhDl4rHxeiEW7avLo4Q&oe=624F8CBF)
+
+![alt text](https://scontent.fclo11-1.fna.fbcdn.net/v/t39.30808-6/277755704_1328053557678198_6720361075950577502_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=olEkT3LPOPMAX8MBl5j&_nc_ht=scontent.fclo11-1.fna&oh=00_AT8kzboc30wPrsvI8HKKKswolXUm6JJpganDK7TSBZgbuQ&oe=624FBF1D)
+
+![alt text](https://scontent.fclo11-1.fna.fbcdn.net/v/t39.30808-6/277536835_1328053547678199_1897796532558874284_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=EoW5IpooD4oAX_ofE7C&_nc_ht=scontent.fclo11-1.fna&oh=00_AT83KuoYr4dYR1hDUwyRBT0OLALgNFybPa9-o61JOR453A&oe=6250862B)
 
 ## Available Scripts
 
