@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.pokedex {
+  border-radius: 20px;
+  border: lightskyblue solid 1px;
+  background-color: #7dd5ea8c;
+  width: 100%;
+}
+@keyframes example {
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
+}
+.loading{
+  text-align: center;
+}
+.loading img {
+  height: 60px;
+  width: 60px;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.pokedex-top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  -moz-border-radius-topright: 20px;
+  width: 100%;
+  background-color: #c41424;
+  height: 100px;
+  margin-bottom: 40px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
+  border-bottom: white 5px solid;
+}
+.pokedex-botton {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  -moz-border-radius-bottomright: 20px;
+  width: 100%;
+  background-color: #c41424;
+  height: 100px;
+  margin-top: 40px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-start;
+  border-top: white 5px solid;
+}
+.img-pokemon {
+  width: 150px;
+}
+.name-pokemon {
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+}
+.abilities-pokemon span {
+  margin-right: 5px;
+}
+.half-circle-top {
+  width: 150px;
+  height: 75px; /* as the half of the width */
+  background-color: #1f1f1f;
+  border-top-left-radius: 75px;  /* 100px of height + 10px of border */
+  border-top-right-radius: 75px; /* 100px of height + 10px of border */
+  border: 5px solid white;
+  border-bottom: 0;
+  margin-bottom: -5px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
+}
+.half-circle-mini-top {
+  width: 80px;
+  height: 40px; /* as the half of the width */
+  background-color: #b9e7f3;
+  border-top-left-radius: 45px;  /* 100px of height + 10px of border */
+  border-top-right-radius: 45px; /* 100px of height + 10px of border */
+  border: 5px solid white;
+  border-bottom: 0;
+  margin-bottom: 0px;
+}
+.half-circle-bottom {
+  width: 150px;
+  height: 75px; /* as the half of the width */
+  background-color: #1f1f1f;
+  border-bottom-left-radius: 75px;  /* 100px of height + 10px of border */
+  border-bottom-right-radius: 75px; /* 100px of height + 10px of border */
+  border: 5px solid white;
+  border-top: 0;
+  margin-top: -5px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-start;
+}
+.half-circle-mini-bottom {
+  width: 80px;
+  height: 40px; /* as the half of the width */
+  background-color: #b9e7f3;
+  border-bottom-left-radius: 45px;  /* 100px of height + 10px of border */
+  border-bottom-right-radius: 45px; /* 100px of height + 10px of border */
+  border: 5px solid white;
+  border-top: 0;
+  margin-top: 0px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.content-list {
+  height: 60vh;
+  overflow-x: auto;
+}
